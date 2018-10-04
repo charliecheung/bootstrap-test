@@ -1,0 +1,109 @@
+/*--
+Author: Charlie Cheung
+May 28th, 2017
+CSS for Bootstrap Test
+--*/
+
+html, body { 
+   	background: #1a1a1a !important;
+	overflow-x: hidden;
+    color: white !important; /*overrides Bootstrap default*/
+} 
+.row {
+	margin-left: 0;
+	margin-right: 0;
+}
+.navbar {
+    margin-bottom: 0;
+	margin-right: -15px;
+    border-radius: 0;
+    background-color: #534741;
+}
+.nav a {
+   	color: white !important;
+	background: #403732;
+    border-left: 1px solid white !important;
+    font-size: 18px;
+	/*transition effects for navigation links*/
+    -webkit-transition: 0.5s ease;
+	transition: 0.5s ease;
+    -moz-transition: 0.5s ease;
+    -o-transition: 0.5s ease;
+}
+.nav a:hover {
+   	color: white !important;
+    background: #70625a !important;
+}
+.navbar-brand img {
+	max-width: 100px;
+}
+h1 {
+   	color: white !important;
+}
+#one {
+   	padding-bottom: 10px; 
+	padding-left: 10px;
+}
+#one img {
+	padding-top: 20px;
+}
+#one img:hover {
+   -webkit-transition: 0.1s ease;
+	transition: 0.3s ease;
+	-moz-transition: 0.3s ease;
+	-o-transition: 0.3s ease;
+	-webkit-filter: opacity(65%);
+}
+/*links for images*/
+#one img a {
+	 text-decoration: none;
+}
+#one img a:hover {
+	text-decoration: none;
+}
+#two {
+   	background: #cccccc !important;
+    padding-bottom: 100px;
+	text-align: left;
+}
+#two img {
+	width: 95%;
+	margin-bottom: 20px;
+	border: 1px solid black;
+}
+#two img:hover {
+   -webkit-transition: 0.1s ease;
+	transition: 0.3s ease;
+	-moz-transition: 0.3s ease;
+	-o-transition: 0.3s ease;
+	-webkit-filter: opacity(65%);
+}
+/*links for images*/
+#two img a {
+	 text-decoration: none;
+}
+#two img a:hover {
+	text-decoration: none;
+}
+.container { 
+   	background: #cccccc !important;
+    color: #1b1b1b !important;
+}
+footer {
+    background-color: #534741;
+    font-size: 14px;
+    color: #706257;
+    padding: 25px;
+}
+footer a {
+    size: 14px;
+    color: white;
+	padding: 0px 5px 0px 5px;
+    -webkit-transition: 0.8s ease;
+    transition: 0.8s ease;
+    -moz-transition: 0.8s ease;
+    -o-transition: 0.8s ease;
+}
+footer a:hover {
+    color: white;
+}
